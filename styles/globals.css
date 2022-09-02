@@ -6,6 +6,36 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-family: 'Tahu!';
+  src: url('../asset/fonts/Tahu.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar-brand a {
+  color: rgb(255, 123, 0);
+  font-family: 'Tahu!';
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.navbar-brand a:hover {
+  color: orange;
+}
+
+.nav-link {
+  color: white;
+  }
+  .active {
+      background:  rgb(255, 123, 0);
+    }
+  .nav-link:hover{
+      color: rgb(255, 123, 0);
+  
+  };
+
+
 a {
   color: inherit;
   text-decoration: none;
